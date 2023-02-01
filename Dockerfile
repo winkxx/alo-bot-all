@@ -10,9 +10,9 @@ RUN apk add --no-cache curl caddy jq bash runit tzdata ttyd p7zip findutils wget
 ENV PORT=3000
 ENV GLOBAL_USER=admin
 ENV GLOBAL_PASSWORD=password
-ENV GLOBAL_LANGUAGE=en
-ENV GLOBAL_PORTAL_PATH=/mypath
-ENV TZ=UTC
+ENV GLOBAL_LANGUAGE=chs
+ENV GLOBAL_PORTAL_PATH=/xxr
+ENV TZ=Asia/Shanghai
 
 EXPOSE 3000
 
