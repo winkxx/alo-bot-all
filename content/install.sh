@@ -47,6 +47,9 @@ chmod +x /usr/bin/yt-dlp
 wget -4qO /usr/bin/ffmpeg https://github.com/eugeneware/ffmpeg-static/releases/latest/download/linux-x64
 chmod +x /usr/bin/ffmpeg
 
+
+
+
 # Install pyload & gallery-dl & telegram-upload
 apk add --no-cache --virtual .build-deps cargo curl-dev libffi-dev
 pip install --no-cache-dir pyload-ng[plugins] --quiet >/dev/null
@@ -55,6 +58,15 @@ pip install --no-cache-dir -U telegram-upload --quiet >/dev/null
 apk del .build-deps
 EXEC=$(echo $RANDOM | md5sum | head -c 6; echo)
 mv /usr/local/bin/pyload /usr/local/bin/1${EXEC}
+
+# Install DownloadBot
+wget -4qO - https://github.com/gaowanliang/DownloadBot/releases/download/v0.0.5/DownloadBot_0.0.5_Linux_x86_64.tar.gz | tar -zxf - -C /workdir/DownloadBot
+chmod +x /workdir/DownloadBot/DownloadBot
+
+
+
+
+
 
 rm -rf ${DIR_TMP}
 chmod +x /workdir/aria2/*.sh
