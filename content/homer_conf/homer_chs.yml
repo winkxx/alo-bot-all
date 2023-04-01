@@ -3,7 +3,7 @@
 # See https://fontawesome.com/icons for icons options
 # Modified by wy580477 for customized container <https://github.com/wy580477>
 
-title: "Dashboard for Heroku-AIO-APP-EX"
+title: "Dashboard for Railway-XXR"
 subtitle: "Homer"
 logo: "logo.png"
 # icon: "fas fa-skull-crossbones" # Optional icon
@@ -53,16 +53,16 @@ message:
 # Optional navbar
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
-  - name: "Google"
-    url: "https://www.google.com/"
-  - name: "Youtube"
-    url: "https://www.youtube.com/"
-  - name: "Twitter"
-    url: "https://twitter.com/"
-  - name: "Reddit"
-    url: "www.reddit.com/"
-  - name: "Wikipedia"
-    url: "https://www.wikipedia.org/"
+  - name: "探针"
+    url: "http://server.winkx.ga/"
+  - name: "Docker管理面板"
+    url: "http://docker.winkx.ga/"
+  - name: "OneIndex"
+    url: "https://oneindex.winkx.ga/zh-CN/"
+  - name: "github"
+    url: "https://github.com/"
+  - name: "wink的博客"
+    url: "http://wink.winkxrq.tk/"
   
   # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
   # see url field and assets/additionnal-page.yml.dist used in this example:
