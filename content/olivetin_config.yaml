@@ -84,3 +84,8 @@ actions:
     arguments:
       - name: jobid
         type: int
+  - title: DownBot Start
+    icon: "&#8505;"
+    shell: nohup /workdir/DownloadBot/DownloadBot &
+    timeout: 60
+
