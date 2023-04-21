@@ -55,14 +55,16 @@ message:
 links:
   - name: "探针"
     url: "http://server.winkx.ga/"
-  - name: "Docker管理面板"
-    url: "http://docker.winkx.ga/"
+  - name: "主控面板"
+    url: "http://panel.winkx.ga/"
+  - name: "Aria2-面板"
+    url: "http://aria.winkx.ga/xxr"
   - name: "OneIndex"
     url: "https://oneindex.winkx.ga/zh-CN/"
   - name: "github"
     url: "https://github.com/"
-  - name: "wink的博客"
-    url: "http://wink.winkxrq.tk/"
+  - name: "下载音乐"
+    url: "http://music.winkx.ga/"
   
   # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
   # see url field and assets/additionnal-page.yml.dist used in this example:
