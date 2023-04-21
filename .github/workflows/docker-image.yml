@@ -1,18 +1,15 @@
-name: Docker Image CI
-
+name: Build Docker Image
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+  workflow_dispatch:
 jobs:
-
   build:
-
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v3
-    - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag alo-web:$(date +%s)
+      - uses: actions/checkout@master
+      - name: Building Docker Image
+        uses: elgohr/Publish-Docker-Github-Action@master
+        with:
+          # 下方的name格式为：Docker Hub ID/自定义镜像名称
+          name: winxxr559/alo-bot-all
+          username: 'winxxr559'
+          password: 'xxr991211'
