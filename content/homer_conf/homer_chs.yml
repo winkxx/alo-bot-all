@@ -54,17 +54,13 @@ message:
 # links: [] # Allows for navbar (dark mode, layout, and search) without any links
 links:
   - name: "探针"
-    url: "http://server.winkx.ga/"
+    url: "https://nezha.winkxrq.tk/"
   - name: "主控面板"
-    url: "http://panel.winkx.ga/"
-  - name: "Aria2-面板"
-    url: "http://aria.winkx.ga/xxr"
+    url: "http://panel.winkxrq.tk/"
   - name: "OneIndex"
-    url: "https://oneindex.winkx.ga/zh-CN/"
+    url: "https://onedrive-vercel-index-winkxx.vercel.app/zh-CN/"
   - name: "github"
     url: "https://github.com/"
-  - name: "下载音乐"
-    url: "http://music.winkx.ga/"
   
   # this will link to a second homer page that will load config from additionnal-page.yml and keep default config values as in config.yml file
   # see url field and assets/additionnal-page.yml.dist used in this example:
