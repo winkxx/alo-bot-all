@@ -16,7 +16,7 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel
     ApiConfig:
-      ApiHost: "http://v2.winkxr.link"
+      ApiHost: "http://v2.winkxr.de"
       ApiKey: "winkxxr991211xxrwink"
       NodeID: 2
       NodeType: V2ray # Node type: V2ray, Trojan, Shadowsocks, Shadowsocks-Plugin
